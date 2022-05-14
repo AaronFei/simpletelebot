@@ -4,8 +4,6 @@ import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
-//5158284240:AAGlvrxQIByXxpkHaRt1vKZtVhWxYyVADFw
-
 func Init(token string) {
 	bot, err := tgbotapi.NewBotAPI(token)
 	if err != nil {
